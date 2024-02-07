@@ -7,9 +7,14 @@
 #### 1. api.py
 
 #### 2. invoiceOcr.py
+0. **Invoice Example**
+<img width="678" alt="image" src="https://github.com/PeopleSpace-Invoice-OCR/Invoice-BE/assets/85086390/0c736f3b-081a-4097-8151-2421ee8dc910">
+
 1. **OCR Text Extraction**
    - Utilize Google Cloud Vision API to extract text from images.
    - OCR technology recognizes text within the image and converts it to character data.
+<img width="594" alt="image" src="https://github.com/PeopleSpace-Invoice-OCR/Invoice-BE/assets/85086390/04ab8b37-c047-4f05-97b5-fb9ff6268f43">
+
 
 2. **Information Extraction via OpenAI API**
    - Write prompts for the OpenAI API based on the text obtained from OCR results.
@@ -22,6 +27,7 @@
 4. **Mapping Extracted Information to JSON**
    - Analyze the response received from the API to identify necessary information.
    - Map identified information to a predefined JSON structure.
+<img width="501" alt="image" src="https://github.com/PeopleSpace-Invoice-OCR/Invoice-BE/assets/85086390/a26bf640-34a3-4d3e-b71a-0b27c935c02c">
 
 
 ## Overview
