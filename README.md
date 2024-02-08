@@ -1,5 +1,4 @@
 # Invoice OCR Processing with Google Cloud Vision and OpenAI
----
 This project demonstrates how to use Google Cloud Vision API and OpenAI API to extract text from invoice documents and organize the information into a JSON format.
 
 ## Code Description - FrontEnd
