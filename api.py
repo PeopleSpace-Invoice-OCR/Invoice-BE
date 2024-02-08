@@ -77,11 +77,11 @@ async def invoice(file: UploadFile = File(...)):
         return JSONResponse(content=result_json, status_code=200)
 
     except Exception as e:
-        # 예외에 대한 추적 정보를 출력하여 더 많은 세부 정보를 얻습니다.
+        # Output tracking information for exceptions to get more details.
         import traceback
         traceback.print_exc()
 
-        # 오류 세부 정보가 포함된 HTTP 500 응답 반환
+        # Returns HTTP 500 responses with error details
         return JSONResponse(content={"error": str(e)}, status_code=500)
 
 
